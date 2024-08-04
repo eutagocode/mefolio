@@ -1,0 +1,55 @@
+.main-page {
+    margin-top: 2rem;
+    height: 100%;
+    display: grid;
+}
+
+.main-page .main-section {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 31.25rem;
+}
+
+.main-page .main-section .showcase-text {
+    display: grid;
+    justify-items: start;
+    gap: 1.5rem;
+}
+
+.main-page .main-section :is(p, h2) {
+    font-family: var(--archivo-medium);
+    font-size: 1.5rem;
+    line-height: 1.63rem;
+    letter-spacing: 0.1rem;
+}
+
+.main-page .main-section h1 {
+    font-family: var(--archivo-regular);
+    font-size: 3rem;
+    line-height: 3.26rem;
+    color: var(--color-primary);
+}
+
+.main-page .main-section h2 {
+    font-family: var(--archivo-regular);
+}
+
+.main-page .main-section button {
+    width: 12rem;
+    height: 2.3rem;
+    background-color: var(--color-primary);
+    color: var(--color-black);
+    cursor: pointer;
+    font-family: var(--archivo-medium);
+    font-size: 1rem;
+    line-height: 1.08rem;
+    padding: 0.625rem 2.4rem;
+    border-radius: 0.25rem;
+}
+
+.main-page .main-section .showcase-image img {
+    max-width: 500px;
+    max-height: 500px;
+}
