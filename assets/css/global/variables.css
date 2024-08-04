@@ -1,0 +1,12 @@
+:root {
+    /* Cores */
+    --color-primary: #97edaa;
+    --color-white: #ffffff;
+    --color-black: #0b0b0b;
+    --color-dark: #101010;
+
+    /* Fontes */
+    --archivo-regular: "Archivo-Regular"
+    --archivo-medium: "Archivo-Medium"
+    --firacode-regular: "FiraCode-Regular"
+}

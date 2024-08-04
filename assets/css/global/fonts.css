@@ -1,0 +1,16 @@
+/* Importação das fontes e suas espessuras */
+
+@font-face {
+    font-family: "Archivo-Regular";
+    src: url("../../docs/fonts/Archivo-Regular.woff");
+}
+
+@font-face {
+    font-family: "Archivo-Medium";
+    src: url("../../docs/fonts/Archivo-Medium.woff");
+}
+
+@font-face {
+    font-family: "FiraCode-Regular";
+    src: url("../../docs/fonts/FiraCode-Regular.woff");
+}
