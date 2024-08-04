@@ -1,0 +1,28 @@
+.header-page {
+    margin-top: 0.8rem;
+    height: 80px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 2px solid var(--color-dark);
+}
+
+.header-page .logo {
+    font-family: var(--firacode-regular);
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.header-page .nav-group {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 3.5rem;
+}
+
+.header-page .nav-group .nav-item {
+    font-family: var(--archivo-regular);
+    cursor: pointer;
+    color: var(--color-white);
+}
