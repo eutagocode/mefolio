@@ -1,0 +1,60 @@
+.about-section {
+    max-width: 100%;
+    max-height: 25.31rem;
+    display: grid;
+    align-content: space-between;
+}
+
+.about-section .title-pages {
+    font-family: var(--archivo-regular);
+    font-size: 2rem;
+    line-height: 2.17rem;
+    color: var(--color-primary);
+    text-align: center;
+}
+
+.about-section .description-about {
+    font-family: var(--archivo-regular);
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    color: var(--color-white);
+    text-align: center;
+}
+
+.about-section .contact-section {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template: 144px / repeat(4, minmax(68px, auto));
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-section .contact-section .contact {
+    display: grid;
+    justify-items: center;
+    gap: 1rem;
+}
+
+.about-section .contact-section .contact-img {
+    width: 62px;
+    height: 62px;
+    background-color: var(--color-dark);
+    border: 1px solid #1f1f1f;
+    border-radius: 500px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.about-section .contact-section .contact :is(b, p) {
+    font-family: var(--archivo-medium);
+    font-size: 1.25rem;
+    line-height: 1.36rem;
+    color: var(--color-white);
+}
+
+.about-section .contact-section .contact p {
+    font-family: var(--archivo-regular);
+    font-size: 1.12rem;
+    line-height: 1.22rem;
+}
